@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/image.jpg");
+  background-size: 100%;
+  font-size: 16px;
+  font-family: sans-serif, roboto;
+}
+section {
+  align-items: center;
+  background-color: rgba(253, 253, 253, 0.418);
+  height: 550px;
+  max-width: 35%;
+  margin: 35px auto;
+  border: 5px solid black;
+  border-radius: 15px;
+}
+.btn-group {
+  display: flex;
+  /* background-color: #fff; */
+  border-radius: 10px;
+  width: 70%;
+  margin: 25px auto 0;
+  height: 75px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(79, 187, 6);
+  border-radius: 10px 0 0 10px;
+  width: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login:hover {
+  background-color: rgb(61, 148, 3);
+}
+.login a {
+  font-size: 2em;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.signup {
+  background-color: #fff;
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  cursor: pointer;
+}
+.signup:hover {
+  width: 50%;
+  background-color: rgb(229, 255, 0);
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.signup a {
+  font-size: 2em;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+input {
+  font-size: 0.61em;
+  color: rgba(73, 73, 73, 0.603);
+  border: none;
+  outline: none;
+}
+#phone {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  color: rgba(73, 73, 73, 0.603);
+  margin: 25px 0;
+  padding-left: 10px;
+  height: 75px;
+  font-size: 2em;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 17px 0 rgba(0, 0, 0, 0.15);
+}
+#phone:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.user1,
+.user2,
+.pass1,
+.pass2 {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+#pswd {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  color: rgba(73, 73, 73, 0.603);
+  margin: 0 0 25px;
+  padding-left: 10px;
+  height: 75px;
+  font-size: 2em;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 17px 0 rgba(0, 0, 0, 0.15);
+}
+#pswd:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.submit {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 25px;
+}
+.submit a {
+  text-decoration: none;
+}
+.done {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 40%;
+  background-color: rgb(79, 187, 6);
+  color: #fff;
+  height: 75px;
+  font-size: 2em;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.done:hover {
+  background-color: rgb(61, 148, 3);
+}
+.done a {
+  color: #fff;
+  font-weight: bold;
+}
+.recover {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-left: 10px;
+  width: 60%;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.recover a {
+  color: #0156ff;
+  text-decoration: underline;
+}
+
+.easyLogin {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 25px;
+}
+.or {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25em;
+}
+p::before {
+  content: "";
+  display: flex;
+  width: 80px;
+  height: 3px;
+  margin-right: 5px;
+  background-color: rgb(0, 0, 0);
+}
+p::after {
+  content: "";
+  display: flex;
+  width: 80px;
+  height: 3px;
+  margin-left: 5px;
+  background-color: rgb(0, 0, 0);
+}
+.socialIcons {
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+.fb a {
+  text-decoration: none;
+  color: #4267b2;
+}
+.gml a {
+  text-decoration: none;
+  color: #db4a39;
+}
+.twtr a {
+  text-decoration: none;
+  color: #00acee;
+}
+.fb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  width: 33%;
+  height: 50px;
+}
+.gml {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  width: 33%;
+  height: 50px;
+}
+.twtr {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  width: 33%;
+  height: 50px;
+}
